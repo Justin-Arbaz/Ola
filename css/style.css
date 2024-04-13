@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gentona-Regular !important;
+    text-decoration: none !important;
+    list-style: none;
+}
+ li{
+    color: white;
+ }
+ 
+html{
+    /* font-size: 62.5%; */
+    -webkit-text-size-adjust: 100%;
+}
+.header_wrapper{
+    width: 100%;
+    height: auto;
+}
+
+                                                /* Navbar Section Start Here */
+
+
+.nav_wrapper .navbar ul{
+    font-size: 14px;
+    font-weight: 600;
+    color: ffffff;
+}
+.nav_wrapper .navbar ul .nav-item a{
+    color: #ffffff;
+    display: block;
+}
+.nav_wrapper .navbar ul .nav-item .nav-link{
+    padding-top: 10px !important;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.nav_wrapper .navbar .offcanvas{
+    width: 100%;
+    height: 493px;
+} 
+.nav_wrapper .navbar .offcanvas .offcanvas-body .offcanvas-top img{
+    width: 148px;
+    height: 116px;
+}
+.nav_wrapper .navbar .offcanvas .offcanvas-body .offcanvas-vl{
+    height: 100%;
+    width: 2px;
+    background: #f1f1f1;
+}
+.offcanvas-list{
+    display: flex;
+    justify-content: space-between;
+}
+.offcanvas-list ul li{
+    color: #333333;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: Gentona-Regular Arial, Helvetica, sans-serif;
+}
+.nav_wrapper .navbar .offcanvas-sm-list{
+    display: none;
+}
+.nav_wrapper .offcanvas .offcanvas-header .btn-close-white{
+    display: none;
+}
+                                                /* Navbar Section End Here */
+
+.header_wrapper .slider_content img{
+    width: 100%;
+    height: 790px;
+    object-fit: cover;
+}
+.header_wrapper .carousel .carousel-indicators button{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    /* background: white; */
+}
+.header_wrapper .carousel .carousel-inner .carousel-item .carousel-button{
+    width: 100%;
+    height: 56px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header_wrapper .carousel .carousel-inner .carousel-item .carousel-button a{
+    width: 161px;
+    height: 56px;
+    background: #fff;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    padding: 13px;
+    text-align: center;
+
+}
+.header_wrapper .carousel .carousel-inner .carousel-item .carousel-button a img{
+    width: 16px;
+    height: 12px;
+}
+.header_wrapper .carousel .carousel-indicators .button1{
+    background: none;
+}
+.header_wrapper .carousel .control {
+    background-color: rgb(0, 0, 0.5);
+    border-radius: 50%;
+}
+.header_wrapper .carousel .carousel-caption{
+    position: absolute;
+    top: 8%;
+    bottom: 15%;
+    right: 15%;
+}
+.header_wrapper .carousel .control-btn{
+    width: 35px;
+    height: 35px;
+    background: rgba(0,0,0,.2);
+    backdrop-filter: blur(2px);
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+                                                /* OLA S1 Section Start Here */
+
+.olas1_wrapper .olas1-card .card-group .card{
+    overflow: hidden;
+}
+.olas1_wrapper .olas1-card .card-group .card a img:hover{
+    -webkit-transition: all 0.3s ease-in-out;
+  transition : all 0.3s ease-in-out;
+  transform: scale(1.05);  
+}
+
+.olas1_wrapper .olas1-card .card-group .card-body{
+    background: #f1f3f8;
+    border: none;
+    outline: none;
+    position: relative;
+    bottom: 30px;
+} 
+.olas1_wrapper .olas1-card .card-group .card-body .explore-button{
+    /* width: 354px;
+    height: 64px; */
+    background: #000;
+    margin-top: 30px;
+    padding: 10px;
+}
+.olas1_wrapper .olas1-card .card-group .card-body a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.olas1_wrapper .olas1-card .card-group .card:hover{
+    transition: all 0.4s ease-in-out !important;
+}
+                                                /* OLA S1 Section End Here */
+/* S1X_wrapper Start Here */
+ .S1X_wrapper .home-merch2{
+    display: none;
+ }
+/* S1X_wrapper End Here */
+
+
+                                                /* Innovation Section Start Here */
+
+.innovation_wrapper .innovation-card .card{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.innovation_wrapper .innovation-card .card1{
+    background: #e4f0f4;
+}
+.innovation_wrapper .innovation-card .card2{
+    background: #f2f2f2;
+}
+.innovation_wrapper .innovation-card .card3{
+    background: rgb(244, 244, 244);
+}
+.innovation_wrapper .innovation-card .card .card-body{
+    position: relative;
+    top: 5%;
+    padding: 0px 30px;
+}
+                                                /* innovation Section End Here */
+
+                                                /* safety_wrapper Start Here */
+
+.safety_wrapper{
+    width: 100%;
+    height: auto;
+}
+.two-wheeler-platform{
+    background-image: url(https://cdn.olaelectric.com/sites/evdp/pages/home_ipo/two_wheeler_platform_web_img1_v2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 618px;
+    border-radius: 12px;
+    padding: 32px;
+}
+.play-button{
+    background: #aaafb9;
+    content: "";
+    cursor: pointer;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    background-position: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+                                                /* safety_wrapper End Here */
+
+                                                /* moveOs Section Start Here */
+
+.moveOS_wrapper{
+    width: 100%;
+    height: auto;
+}
+.moveOS_wrapper .moveOS-text{
+    width: 100%;
+    height: 464px;
+    text-decoration: none;
+    background: #f1f1f1;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    color: gray;
+
+}
+.moveOS_wrapper .moveOS-text a{
+    text-decoration: none;
+    color: red;
+}
+.moveOS_wrapper .card{
+    border-radius: 8px 8px 0 0;
+    border: none;
+    outline: none;
+}
+.moveOS_wrapper .moveOS-image img{
+    width: 100%;
+    height: 464px;
+    border-radius: 0 0 8px 8px;
+}
+                                                /* moveOs Section End Here */
+
+
+                                                /* Chart wrapper Start Here */
+
+.chart_wrapper{
+    width: 100%;
+    height: auto;
+    background: #f1f1f1;
+}
+.chart_element{
+    width: 100%;
+    height: auto;
+    background: #f1f1f1;
+    padding: 98px 0px;
+}
+.chart_element .chart-left{
+    display: flex;
+    flex-direction: column;
+}
+
+                                                /* Chart wrapper Start Here */
+
+
+.slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    /* -webkit-appearance: none; */
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  .slidecontainer .range-km{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.right-chart .highcharts-q0ry8h8-120{
+    width: 100% !important;
+    height: auto;
+}
+
+
+                                                /* centre Section Start Here */
+                                                
+.centre-dropdown{
+    list-style-type: none;
+}
+.centre-left{
+    margin-left: 99px;
+    margin-top: 99px;
+}
+.centre-wrapper .centre-container .row{
+    --bs-gutter-x: 0rem;
+}
+.centre-wrapper .centre-container .centre-left .centre-left-bottom-text a{
+    text-decoration: none;
+    font-size: 18px;
+    color: green;
+}
+.centre-wrapper .ola-centre-img .mweb{
+    display: none;
+}
+
+/* Future section start Here */
+
+.future-motorcycling_wrapper{
+    background: #000;
+    width: 100%;
+    height: auto;
+    padding: 96px 0px;
+}
+.future-motorcycling_wrapper .future-motorcycling-heading p{
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.future-motorcycling_wrapper .card-group .card{
+    width: 100%;
+    height: auto;
+    border: none;
+    
+}
+.future-motorcycling_wrapper .card-group .card .card-body a{
+    width: 181px;
+    height: 46px ;
+    display: block;
+    background: #000000 ;
+    opacity: 40%;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.future-motorcycling_wrapper .card-group .card .card-img-top{
+width: 100%;
+height: 300px;
+border: none;
+border-top-left-radius: 0%;
+border-top-right-radius: 0%;
+object-fit: cover;
+}
+
+.future-motorcycling_wrapper .card-group .card1 .card-body{
+    padding: 50px 40px 0;
+    height: 175px;
+    background: linear-gradient(180deg,#9296A1 40.86%,rgb(205,204,200) 100%);
+    
+}
+.future-motorcycling_wrapper .card-group .card3 .card-body{
+
+    padding: 50px 40px 0;
+    border: none;
+    outline: none;
+    height: 175px;
+    background: linear-gradient(180deg,#9296A1 40.86%,rgb(205,204,200) 100%);
+}
+.future-motorcycling_wrapper .card-group .card2 .card-body{
+    padding: 50px 40px 0;
+    height: 175px;
+    background: linear-gradient(180deg,#9296A1 40.86%,rgb(205,204,200) 100%);
+}
+.future-motorcycling-video-label{
+    
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    padding-top: 90px;
+}
+
+
+                                                /* ev hub Section Start Here */
+.ev-hub_wrapper{
+    width: 100%;
+    height: auto;
+    padding: 96px 0px;
+}
+                                                /* ev hub Section End Here */
+.community_wrapper{
+    width: 100%;
+    height: auto;
+    padding: 96px 0px;
+}
+.community_wrapper .mweb{
+    display: none;
+}
+/* Newspaper section start here */
+.newsroom_wrapper{
+    padding: 96px 0px;
+}
+.newsroom_wrapper .news-line{
+    width: 100%;
+    height: 1px;
+    background: #f1f1f1;
+}
+.newsroom_wrapper .bhavish-img{
+    width: 168px;
+    height: 112px;
+}
+.newsroom_wrapper .bhavish-img .img-fluid{
+    width: 168px;
+    height: 112px;
+}
+/* Newspaper section end here */
+
+/* Footer Setion Start Here */
+.email_wrapper{
+    width: 100%;
+    height: auto;
+    padding: 80px 0px;
+    background: #f1f1f1;
+}
+.email-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.email_wrapper .email-content .email{
+    width: 350px;
+    flex-wrap: wrap;
+}
+.email-content input{
+    border: none;
+    outline: none;
+    padding: 0px 40px;
+    background: #f1f1f1;
+}
+.email_wrapper .email-content .email-line{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    margin-top: 5px;
+}
+
+
+.footer_wrapper{
+    padding: 40px 0px 20px;
+}
+.footer_wrapper ul li{
+    margin-bottom: 23px;
+    letter-spacing: -0.48px;
+    color: rgb(214,225,234,70%);
+    font-family: "Gentona-Regular";
+}
+
+/* Footer Setion End Here */
+
+.footer-small-device-wrapper{
+    width: 100%;
+    height: auto;
+}
+/* Footer small device section Start Here */
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath fill='%23ffffff' d='M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z'/%3E%3C/svg%3E");
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath fill='%23ffffff' d='M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z'/%3E%3C/svg%3E");
+}
+
+/* Footer small device section End Here */
+
+
+
+
+
+
+
+
+
